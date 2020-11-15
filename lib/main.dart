@@ -1,8 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-
-import 'file:///C:/Users/yousi/AndroidStudioProjects/json_to_dart/lib/utils/model_generator.dart';
+import 'package:json_to_dart/utils/model_generator.dart';
 
 void main() {
   runApp(MyApp());
