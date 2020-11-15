@@ -10,10 +10,12 @@ jobs:
     - uses: actions/setup-java@v1
       with:
         java-version: '12.x'
+    
+    # Setup the flutter environment.
     - uses: subosito/flutter-action@v1
       with:
-        flutter-version: '1.24.x' # you can use 1.12
-        channel: 'dev' # Currently you have to use beta channel for Flutter web.
+        channel: 'dev' # 'dev', 'alpha', default to: 'stable'
+        # flutter-version: '1.12.x' # you can also specify exact version of flutter
     - name: Upgrades flutter
       run: flutter upgrade
       working-directory: ./example
