@@ -1,0 +1,10 @@
+{
+    "username": "javiercbk",
+    "favouriteInteger": 18,
+    "favouriteDouble": 1.6180,
+    "url": "https://api.github.com/users/javiercbk",
+    "html_url": "https://github.com/javiercbk",
+    "tags": ["dart", "json", "cool"],
+    "randomIntegers": [1, 2, 3],
+    "randomDoubles": [1.1, 2.2, 3.3]
+}
